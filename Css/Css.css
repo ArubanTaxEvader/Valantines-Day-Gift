@@ -1,0 +1,53 @@
+body {
+   background-image: url('Img/Valantine1.jpg');
+}
+
+.fade-in-text {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    animation: fadeIn 10s;
+    text-align: center;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+  }
+  p{
+    color: white;
+  }
+  div {
+    height: 500px;
+    width: 700px;
+
+    position: fixed;
+    top: 45%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+ 
